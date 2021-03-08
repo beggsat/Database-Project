@@ -1,0 +1,2 @@
+ALTER TABLE manager
+ADD FOREIGN KEY (SSN) REFERENCES restaurant(managerID);

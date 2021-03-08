@@ -1,0 +1,10 @@
+.AppCards__cards {
+    display: grid;
+    grid-gap: 24px 24px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.AppCards__card{
+    max-width: 320px;
+    margin: 8px;
+}
